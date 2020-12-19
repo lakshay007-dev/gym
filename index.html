@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Lakshay Fitness
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    <style>
+        /* CSS reset */
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+            color: white;
+            margin: 0px;
+            padding-top: 0px;
+            background: url('img/gym.jpg');
+            background-size: 1500px 725px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+
+        }
+
+        .left img {
+            filter: invert(100%);
+            padding-left: 22px;
+            height: 80px;
+        }
+
+        .left {
+            font-size: 17px;
+            display: inline-block;
+            
+            position: absolute;
+            top: 20px;
+            left: 34px;
+            display: inline-block;
+        }
+
+        .mid {
+            display: block;
+            width: 45%;
+            margin: 20px auto;
+            
+
+        }
+
+        .right {
+            position: absolute;
+            top: 20px;
+            right: 34px;
+            display: inline-block;
+            
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 17px;
+            padding: 1px;
+            
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(41, 38, 38);
+        }
+
+        .container {
+            
+            margin: 70px 55px;
+            padding: 75px;
+            border-radius: 28px;
+
+        }
+        .form-group input{
+            font-size: 20px;
+            text-align: center;
+            display: block;
+            width:400px;
+            padding: 1px;
+            margin: 11px auto;
+
+
+        }
+        .container h1{
+            text-align: center;
+        }
+        .form-group button{
+            display: block;
+            width: 400px;
+            margin: auto;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <div>Lakshay Fitness</div>
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="cal.html">Workout Calculator</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email-Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        
+        <h1>
+            Join the best gym of kharkhoda now
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name" ;
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your address" ;
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your contact no." ;
+            </div>
+            <div class="form-group">
+                <input type="email" name="" placeholder="Enter your email" ;
+            </div>
+        </form>
+        <button class="btn">Submit</button>
+    </div>
+
+</body>
+
+</html>
